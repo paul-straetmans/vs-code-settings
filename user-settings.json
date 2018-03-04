@@ -1,41 +1,38 @@
 {
-    "workbench.startupEditor": "newUntitledFile",
-    "window.titleBarStyle": "custom",
-
-    "editor.scrollbar.verticalScrollbarSize": 8,
-    
-    // Controls the font size in pixels.
-    "editor.fontSize": 15,
-  
-    // Controls the font family.
-    "editor.fontFamily": "IA Writer Duospace, Menlo, Monaco, 'Courier New', monospace",
-    
-    "gitlens.advanced.messages": {
-        "suppressCommitHasNoPreviousCommitWarning": false,
-        "suppressCommitNotFoundWarning": false,
-        "suppressFileNotUnderSourceControlWarning": false,
-        "suppressGitVersionWarning": false,
-        "suppressLineUncommittedWarning": false,
-        "suppressNoRepositoryWarning": false,
-        "suppressUpdateNotice": false,
-        "suppressWelcomeNotice": true
-    },
-    "workbench.colorTheme": "DuoTone Dark Sea",
-    // "workbench.colorTheme": "DuoTone Dark Sky",
-    "workbench.colorCustomizations": {
-        "activityBar.background": "#161d24",
-        // "activityBar.background": "#1D262F",
-        "sideBar.background": "#192129",
-
-        "editorGroupHeader.tabsBackground": "#192129",
-        "tab.activeBackground": "#192129",
-        "tab.inactiveBackground": "#192129",
-        "tab.activeBorder": "#34FEBB",
-        
-        "titleBar.inactiveBackground": "#13191f",
-        "titleBar.activeBackground": "#13191f",
-
-        "statusBar.background" : "#161d24",
-        "statusBar.foreground": "#4b4b4b"
-    }
+  "workbench.startupEditor": "newUntitledFile",
+  "window.titleBarStyle": "custom",
+  "editor.scrollbar.verticalScrollbarSize": 8,
+  // Controls the font size in pixels.
+  "editor.fontSize": 15,
+  // Controls the font family.
+  "editor.fontFamily":
+    "IA Writer Duospace, Menlo, Monaco, 'Courier New', monospace",
+  "editor.formatOnSave": true,
+  "editor.cursorBlinking": "phase",
+  "editor.fontLigatures": true,
+  "editor.minimap.renderCharacters": false,
+  "editor.scrollBeyondLastLine": false,
+  "editor.smoothScrolling": true,
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "explorer.openEditors.visible": 0,
+  "files.autoSave": "onFocusChange",
+  "emmet.triggerExpansionOnTab": true,
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressResultsExplorerNotice": true,
+    "suppressUpdateNotice": true,
+    "suppressWelcomeNotice": true
+  },
+  "workbench.fontAliasing": "antialiased",
+  "workbench.colorTheme": "Material Theme",
+  "materialTheme.cache.workbench.settings": {
+    "themeColours": "Palenight"
+  }
 }

@@ -3,6 +3,10 @@
 add these settings to your user settings.
 
 ## Requirements
-- VS Code 1.9.0
-- DuoTone Dark Sea Theme [https://github.com/sallar/vscode-duotone-dark]
-![DuoTone Dark Sea](https://github.com/simurai/duotone-dark-sea-syntax/raw/master/docs/screenshot.png)
+
+* Material Theme [https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme]
+* Bracket Pair Colorizer [https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer]
+* GitLens [https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens]
+* Polacode [https://marketplace.visualstudio.com/items?itemName=pnp.polacode]
+* Prettier [https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode]
+* vscode-styled-components [https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components]
